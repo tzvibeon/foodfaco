@@ -1,0 +1,232 @@
+html{
+    background-image: url("img/main_1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+   margin-left: 20px; 
+
+}
+body{
+  
+  margin: auto 50px;
+    
+    
+
+}
+ .navi{
+    background-color: rgba(36, 41, 40, 0.062);
+    color: white;
+    width: 91%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    
+    
+}
+
+li h1{
+    text-shadow: aquamarine;
+    stroke-opacity: initial;
+    font-size: 20px;
+    margin-top: 0;
+   
+
+
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+ 
+}
+.l{
+    
+ 
+    margin-left: 20px;
+    float: right;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+   padding: 12px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+a:hover{
+   
+    background-image: linear-gradient( 88.7deg,  rgba(205,33,42,1) 10.6%, rgba(236,95,5,1) 90% );background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+
+    color: black;
+ 
+
+} 
+/*content*/
+
+.content{
+    position: relative;
+    top: 15em;
+    left: 22em;
+    color: white;
+}
+#btn{
+    padding: 25px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+   
+    background-image: linear-gradient( 88.7deg,  rgba(205,33,42,1) 10.6%, rgba(236,95,5,1) 90% );background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+    border: 0px solid orangered;
+    color: white;
+    margin-left: 44px;
+    transition:all 0.3s ease;
+    opacity:4;
+    position: absolute;
+    top:45px;
+    
+    
+
+}
+
+a:hover{
+    transition: 0.5s;
+    background-color: rebeccapurple;
+    
+  
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+     
+    opacity:8;
+    
+}
+/* Modal popup css here*/
+#bg-modal{
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.container{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    transform: rotate(45deg);
+    cursor: pointer;
+    color: red;
+}
+input{
+    display: block;
+    width: 50%;
+    padding: 6px;
+    margin: 15px auto;
+    border-radius: 1px;
+    
+    box-shadow: 5px 5px 7px rgb(37, 41, 43);
+    text-shadow: 5px 12px 2px rgb(37, 41, 43);
+    font-weight: bold;
+    font-style:inherit;
+    font-size: 13px;
+
+}
+input:focus{
+    outline: none;
+    
+}
+/* p{
+    background-image: linear-gradient( 88.7deg,  rgba(205,33,42,1) 10.6%, rgba(236,95,5,1) 90% );background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+.sub{
+    padding: 17px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+     
+    font-size: 10px;
+    text-transform: uppercase;
+   
+    background-image: linear-gradient( 88.7deg,  rgba(205,33,42,1) 10.6%, rgba(236,95,5,1) 90% );background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+
+    color: white;
+    
+    transition:all 0.3s ease;
+    opacity:4;
+    margin: 12px auto;
+    
+
+}
+h3:hover{
+    transition: 0.5s;
+    background-color: rebeccapurple;
+    
+    
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    
+    opacity:8
+    
+}
+/* VAlid invalid check*/
+
+.valid-feedback{
+    display: none;
+    color: green;
+    text-align: center;
+    box-shadow: 5px 5px 7px rgb(43, 235, 26);
+   
+    
+}
+
+.invalid-feedback{
+    display: none;
+    color: red;
+    text-align: center;
+    margin-left: 90px;
+    font-weight: bold;
+    
+}
+.evalid-feedback{
+    display: none;
+    color: green;
+    text-align: center;
+   
+    
+}
+
+.einvalid-feedback{
+    display: none;
+    color: red;
+    text-align: center;
+    margin-left: 160px;
+    font-weight: bold;
+    
+}
